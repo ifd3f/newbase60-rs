@@ -1,12 +1,12 @@
 [package]
 name = "newbase60"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Astrid Yu <astrid@astrid.tech>"]
 edition = "2018"
 license-file = "LICENSE"
-homepage = "https://github.com/Plenglin/newbase60-rs"
-repository = "https://github.com/Plenglin/newbase60-rs"
+homepage = "https://github.com/astralbijection/newbase60-rs"
+repository = "https://github.com/astralbijection/newbase60-rs"
 description = "A library that implements Tantek Çelik's New Base 60"
 
-[dependencies]
+[dev-dependencies]
 rstest = "0.7.0"
