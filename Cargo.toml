@@ -1,6 +1,6 @@
 [package]
 name = "newbase60"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Astrid Yu <astrid@astrid.tech>"]
 edition = "2018"
 license-file = "LICENSE"
