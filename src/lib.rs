@@ -8,7 +8,7 @@ use rstest::rstest;
 ///
 /// Basic usage:
 /// ```
-/// use newbase60_rs::num_to_sxg;
+/// use newbase60::num_to_sxg;
 ///
 /// assert_eq!(num_to_sxg(1337), "NH".to_string());
 /// ```
@@ -49,7 +49,7 @@ pub fn num_to_sxg(n: u128) -> String {
 /// # Examples
 ///
 /// ```
-/// use newbase60_rs::sxg_to_num;
+/// use newbase60::sxg_to_num;
 ///
 /// assert_eq!(sxg_to_num("NH"), Some(1337));
 /// assert_eq!(sxg_to_num("N🥺H"), Some(1337));

@@ -6,7 +6,7 @@ edition = "2018"
 license-file = "LICENSE"
 homepage = "https://github.com/Plenglin/newbase60-rs"
 repository = "https://github.com/Plenglin/newbase60-rs"
-description = "A library that implements Tantek Celik's New Base 60"
+description = "A library that implements Tantek Çelik's New Base 60"
 
 [dependencies]
 rstest = "0.7.0"
