@@ -10,7 +10,7 @@ To use this in your project, simply add the line
 
 ```toml
 [dependencies]
-newbase60 = "0.1.2"
+newbase60 = "^0.1"
 ```
 
 to your Cargo.toml.
