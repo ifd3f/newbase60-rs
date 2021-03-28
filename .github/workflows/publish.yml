@@ -22,7 +22,7 @@ jobs:
         run: cargo test --verbose
 
       - name: Login
-        run: cargo login ${{secrets.API_TOKEN}}
+        run: cargo login ${{secrets.CRATES_IO_TOKEN}}
 
       - name: Publish
         run: cargo publish
