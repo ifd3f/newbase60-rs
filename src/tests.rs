@@ -1,4 +1,5 @@
 use rstest::rstest;
+use super::*;
 
 // Tests stolen from https://github.com/indieweb/newBase60py/blob/master/newbase60test.py
 

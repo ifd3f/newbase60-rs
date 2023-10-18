@@ -1,4 +1,4 @@
-#[cfg(tests)]
+#[cfg(test)]
 mod tests;
 
 /// Convert a number into its New Base 60 representation.

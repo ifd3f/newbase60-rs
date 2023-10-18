@@ -9,4 +9,4 @@ repository = "https://github.com/astralbijection/newbase60-rs"
 description = "A library that implements Tantek Çelik's New Base 60"
 
 [dev-dependencies]
-rstest = "0.7.0"
+rstest = "0.18.2"
