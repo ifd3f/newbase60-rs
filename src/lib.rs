@@ -72,10 +72,7 @@ pub fn sxg_to_num(s: &str) -> Option<u128> {
             _ => continue,  // skip invalid chars
         };
 
-        n = match n.checked_mul(60).and_then(|x| x.checked_add(digit as u128)) {
-            Some(x) => x,
-            None => return None,
-        }
+        n = n.checked_mul(60)?.checked_add(digit as u128)?;
     }
     Some(n)
 }
